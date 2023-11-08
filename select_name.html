@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>select practice</title>
+  </head>
+  <body>
+    <select name="fruit" id="name">
+      <option value="0">사과</option>
+      <option value="1">오렌지</option>
+      <option value="2">레몬</option>
+    </select>
+  </body>
+  <script>
+    const fruitName = document.getElementById("name");
+    console.log(fruitName.options[0].text);
+  </script>
+</html>
