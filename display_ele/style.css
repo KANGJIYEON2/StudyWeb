@@ -1,0 +1,12 @@
+a {
+  background-color: yellow;
+}
+
+div {
+  background-color: yellow;
+}
+
+#inline-block-span {
+  display: inline-block;
+  background-color: yellow;
+}
