@@ -1,0 +1,36 @@
+body {
+  position: static;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  margin: 30px;
+  text-align: center;
+}
+
+.static {
+  position: static;
+  top: 16px;
+  bottom: 10px;
+}
+
+/* absoulte: top, bottom 영향 있음 */
+.absolute {
+  position: absolute;
+  top: 16px;
+  bottom: 10px;
+}
+
+.relative {
+  position: relative;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.sticky {
+  position: sticky;
+}
