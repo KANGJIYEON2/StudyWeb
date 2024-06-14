@@ -1,0 +1,30 @@
+.container {
+  background-image: url(https://cdn.pixabay.com/photo/2020/04/16/20/10/donut-shop-5052195_1280.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+}
+
+.contents {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  width: 500px;
+  height: 100px;
+  margin: auto;
+  padding: 200px;
+}
+
+.container h1 {
+  font-weight: 600;
+}
+
+.container button {
+  border-radius: 50px;
+  padding: 10px;
+  border: none;
+  margin-left: 200px;
+  cursor: pointer;
+}
+.container button:hover {
+  background-color: pink;
+}
