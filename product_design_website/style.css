@@ -1,0 +1,119 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(#e6d2aa, #f1efdc);
+  font-family: "Playwrite DE Grund", cursive;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  background-color: #42032c;
+  border-radius: 12px;
+  color: #e6d2aa;
+  cursor: pointer;
+}
+
+button:hover {
+  transition: 0.8s;
+  background-color: #d36b00;
+}
+
+.banner__item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.banner__item-contents {
+  text-align: center;
+}
+.banner__item-contents {
+  color: white;
+}
+
+.banner__item-contents h1 {
+  letter-spacing: 10px;
+}
+
+.banner__item-contents button {
+  margin: 20px;
+}
+
+.banner__item img {
+  width: 400px;
+  height: 400px;
+}
+
+/* details page */
+
+.go-details {
+  background-color: white;
+  height: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.go-details button {
+  margin: 20px;
+}
+
+.special-items {
+  color: white;
+  text-align: center;
+}
+
+.box__items-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box__items-icon i {
+  width: 140px;
+  height: 140px;
+  margin: auto;
+  box-sizing: border-box;
+  margin: 10px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.box__items-icon i span {
+  width: 100%;
+  height: 100%;
+  font-size: 6rem;
+  padding: 18px;
+  color: #42032c;
+}
+
+.img_contents {
+  max-width: 1000px;
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.img_contents img {
+  width: calc(100% / 2);
+  height: 600px;
+  border-radius: 10px;
+}
+
+.img_contents img:hover {
+  border: 30px solid white;
+  transition: 0.6s;
+}
+
+.box-items {
+  margin: 20px;
+  text-align: center;
+}
