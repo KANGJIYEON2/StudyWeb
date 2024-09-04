@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      #bell {
+        margin: 10px;
+        position: relative;
+        width: 100px;
+        height: 100px;
+        background-color: black;
+      }
+      #alarm {
+        position: absolute;
+        width: 14px;
+        height: 14px;
+        background-color: red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 4px;
+        top: -4px;
+        right: -4px;
+        border-radius: 10px;
+      }
+    </style>
+    <div id="bell">
+      알림
+      <div id="alarm">1</div>
+    </div>
+  </body>
+</html>
