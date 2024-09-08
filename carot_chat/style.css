@@ -1,0 +1,215 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+@font-face {
+  font-family: "MinSans-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/MinSans-Regular.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* header */
+
+header {
+  padding: 10px;
+  border-bottom: 1px solid rgb(222, 222, 219);
+}
+.header-contents {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.user-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.user {
+  margin-left: 16px;
+  display: flex;
+}
+.user .user-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 4px;
+}
+.user .user-temp {
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 2px 6px 2px 6px;
+  display: flex;
+  align-items: center;
+}
+
+.user-section .user-answer {
+  margin-top: 4px;
+  margin-left: 16px;
+  color: gray;
+  font-size: 14px;
+}
+
+.icon-list {
+  display: flex;
+}
+.icon-list img {
+  display: block;
+  width: 30px;
+  margin-left: 14px;
+}
+
+/* main section */
+
+body {
+  font-family: "MinSans-Regular";
+}
+
+.sell-list {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(222, 222, 219);
+}
+
+.sell-list img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+}
+
+.sell {
+  margin-left: 20px;
+}
+
+.sell .sell-title {
+  font-size: 18px;
+}
+
+.sell .sell-price {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.chat-user {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 10px;
+}
+.chat-user .chat-user__time {
+  margin-right: 10px;
+  color: gray;
+  font-weight: bold;
+}
+.chat-user .chat-user__title {
+  background-color: rgb(239, 156, 31);
+  border-radius: 14px 0px 14px 14px;
+  width: 300px;
+  height: 80px;
+  font-size: 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 10px 0 10px;
+}
+
+.chat-seller {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 10px;
+}
+
+.chat-seller img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.chat-seller .chat-seller__title {
+  background-color: rgb(227, 224, 222);
+  border-radius: 0px 14px 14px 14px;
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  padding: 0 10px 0 10px;
+}
+
+.chat-seller .chat-seller__time {
+  margin-left: 10px;
+  color: gray;
+  font-weight: bold;
+}
+
+.comfirm {
+  border: 1px solid rgb(222, 222, 219);
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  margin: 0px 14px 0 14px;
+}
+
+.comfirm img {
+  width: 20px;
+  border: 1px solid black;
+  padding: 2px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.user-comfirm .comfirm-date {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.notice-info {
+  padding: 10px;
+  text-align: center;
+  margin: 20px 0 20px 0;
+  color: gray;
+}
+
+/* footer */
+
+footer {
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(219, 219, 219);
+  border: 10;
+  width: 100vw;
+}
+.footer-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+footer img {
+  width: 30px;
+}
+
+.footer-block .message {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  width: 74%;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.img-section .dot {
+  width: 8px;
+  height: 8px;
+  position: absolute;
+
+  background-color: rgb(239, 156, 31);
+  bottom: 48px;
+  right: 64px;
+  border-radius: 10px;
+}
